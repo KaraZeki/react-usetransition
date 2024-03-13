@@ -10,7 +10,7 @@ function App() {
 
     startTransition(() => {
       const myArray = [];
-      for (let i = 0; i < 2000; i++) {
+      for (let i = 0; i < 20000; i++) {
         myArray.push(e.target.value);
       }
       setMyList(myArray);
